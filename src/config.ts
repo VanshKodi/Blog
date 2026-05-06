@@ -1,8 +1,8 @@
 export const SITE = {
-  website: "https://blog.vanshkodi.in/", // replace this with your deployed domain
+  website: "https://blog.vanshkodi.in/",
   author: "Vansh Kodinariya",
   profile: "https://profile.vanshkodi.in/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme fork.",
+  desc: "Documenting my journey learning new tech and building projects. Organized with tags, personal use - but hosted just because.",
   title: "KodiBlog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "https://github.com/VanshKodi/blog/edit/main/",
   },
   dynamicOgImage: false,
   dir: "ltr", // "rtl" | "auto"

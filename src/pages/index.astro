@@ -24,7 +24,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
+        Vansh Kodinariya
       </h1>
       <a
         target="_blank"
@@ -41,21 +41,26 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
-      <p class="mt-2">
-        Read the blog posts or check
-        <LinkButton
-          class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p>
+      <div class="mt-4 space-y-4">
+        <p>
+          Hello, and welcome to my digital notepad!
+        </p>
+        <p>
+          I am an aspiring software developer who spends a bit too much time tinkering with new technologies, exploring everything from full-stack web frameworks to agentic AI pipelines. Whenever I dive into a new language or tool, I have this habit of documenting the entire process. I write down the setups, the bugs, and the breakthroughs in a highly structured format.
+        </p>
+        <p>
+          Originally, this was purely for my own survival. It served as a personal knowledge base so I wouldn't have to endlessly search the internet to relearn how to configure a local server or debug an API every few months.
+        </p>
+        <p>
+          But eventually, I looked at my growing collection of notes and thought, why let all this documentation gather digital dust on my hard drive? Setting up a domain and self-hosting it all online seemed like it might be a pretty cool weekend project. So, here we are!
+        </p>
+        <p>
+          Consider this space a mix between a professional developer log and a personal playground. I will be sharing my journey, the new tech I am learning, and the projects I am building along the way. If my late-night troubleshooting notes happen to save you a few hours of headache, that is a fantastic bonus.
+        </p>
+        <p>
+          Thanks for stopping by, and let's get into it!
+        </p>
+      </div>
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
